@@ -2,11 +2,18 @@
   background-color: rgb(225, 4, 4);
   color: white;
   border: none;
-  height: 35px;
-  width: 110px;
   border-radius: 2px;
   cursor: pointer;
   margin-right: 8px;
+  padding: 10px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+.subscribe-button:active{
+  opacity: 0.6;
 }
 .join-button {
   background-color: white;
@@ -14,20 +21,33 @@
   border-style: solid;
   border-width: 1px;
   color: rgb(41, 118, 211);
-  height: 36px;
-  width: 62px;
+  padding: 9px;
   border-radius: 2px;
   cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+  vertical-align: top;
 }
+.join-button:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+.join-button:active {
+  opacity: 0.7;
+}
+
 .tweet-button {
   background-color: rgb(2, 158,255);
   color: white;
   border: none;
-  height: 36px;
-  width: 74px;
+  padding: 9px;
   border-radius: 18px;
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
   margin-left: 8px;
+  transition: box-shadow 0.5s;
+  vertical-align: top;
+}
+.tweet-button:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
 }
